@@ -1,0 +1,78 @@
+.NewBoxForm-container {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 1em;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+input {
+    width: 300px;
+    padding-left: 15px;
+    border: 1px solid blueviolet;
+    border-radius: 5px 5px 5px 5px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: none;
+}
+
+.NewBoxForm-input-container {
+    padding: 4px;
+}
+
+.fa-box-open:before {
+    background: linear-gradient(rgb(148, 73, 233),rgb(99, 174, 248));
+    background: -webkit-linear-gradient(rgb(148,73,233),rgb(99,174,248));
+    background: -moz-linear-gradient(rgb(148,73,233),rgb(99,174,248));
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fa-box-open:first-child {
+    margin-right: 1.5em;
+}
+
+.fa-box-open:last-child {
+    margin-left: 1.5em;
+}
+
+h1 {
+    padding-top: 0.5em;
+    color: #69A1F6;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.NewBoxForm-button {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    background-color: blueviolet; 
+    border: 2px solid blueviolet;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    transition: .3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.NewBoxForm-button:hover {
+    background-color: white; 
+    border: 2px solid blueviolet;
+    border-radius: 5px 5px 5px 5px;
+    color: blueviolet;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+}

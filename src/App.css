@@ -1,0 +1,9 @@
+body{
+  background-image: linear-gradient(rgb(148, 73, 233),rgb(99, 174, 248));
+  background-image: -webkit-linear-gradient(rgb(148,73,233),rgb(99,174,248));
+  background-image: -moz-linear-gradient(rgb(148,73,233),rgb(99,174,248));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
